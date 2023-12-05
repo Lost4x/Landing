@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "TT Hoves";
+  color: #222;
+}
+
+section {
+  padding: 0 120px;
+  margin-bottom: 160px;
+}
+
+#logo {
+  margin-top: 35px;
+  width: 295px;
+  margin-bottom: 85px;
+}
+
+h1 {
+  font-family: "Chava";
+  font-size: 80px;
+  line-height: 110%;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: calc(2.7vw + 24.055px);
+  line-height: 117%;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: calc(1vw + 14.271px) 27px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.first-page {
+  position: relative;
+}
+
+#bg-image {
+  position: absolute;
+  top: 120px;
+  right: 60px;
+}
+
+.course-data {
+  display: flex;
+  gap: 160px;
+  margin-bottom: 75px;
+}
+
+.course-data__desc {
+  margin-bottom: 5px;
+}
+
+.course-date {
+  font-weight: bold;
+}
+
+.course-description {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  width: 328px;
+  border-radius: 12px;
+  background: white;
+  padding: 20px 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: 1px solid #6e3aba;
+}
+
+.primary-button {
+  width: 328px;
+  border-radius: 12px;
+  background: #6e3aba;
+  padding: 20px 0;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  border: 0;
+}
+
+/* ?================FOR-WHOM-PAGE================= */
+
+.for-whom {
+  width: 100%;
+  margin: 0 auto calc(11vw + 18.6px);
+}
+
+.for-whom h2 {
+  margin-bottom: calc(2.8vw + 4.6px); /* 40px - 15px */
+}
+
+.student-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  margin-bottom: 60px;
+}
+
+.student-info-wrapper-2 {
+  margin-bottom: 0;
+}
+
+.student-info {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.student-info img {
+  max-width: calc(6.1vw + 207px);
+  margin: 0 0 calc(1.7vw + 3.8px) 0;
+}
+
+@media (max-width: 800px) {
+  .student-info-wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 850px) {
+  .course-data {
+    flex-direction: column;
+  }
+}
+
+/* ?================FOR-WHOM-PAGE================= */
+
+
+.timerContainer{
+  background-color: #6E3ABA;  
+  }
+
+.bgPrimary{
+font-family: 'TT Hoves';
+font-size: 52px;
+font-weight: 700;
+letter-spacing: 1.56px;
+text-transform: uppercase;
+}
+
+.timeCard0{
+  color: #2F1D4E;
+font-family: 'Chava';
+font-size: 174px;
+font-style: normal;
+font-weight: 400;
+line-height: 107.5%; /* 187.05px */
+}
+
+.timeCard1{
+  color: #2F1D4E;
+font-family: 'Chava';
+font-size: 174px;
+font-style: normal;
+font-weight: 400;
+line-height: 107.5%; /* 187.05px */
+}
+
+.timeCard2{
+  color: #2F1D4E;
+font-family: Chava;
+font-size: 174px;
+font-style: normal;
+font-weight: 400;
+line-height: 107.5%; /* 187.05px */
+}
